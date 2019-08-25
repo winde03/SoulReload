@@ -1,0 +1,8 @@
+name: soulreload
+version: 1.1.1
+main: cn.winde.bd.Main
+author: winde
+commands:
+  bd:
+    description: bd
+    permission: bd.use

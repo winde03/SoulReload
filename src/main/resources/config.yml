@@ -1,0 +1,25 @@
+mySQLHost: 127.0.0.1
+mySQLPort: 3306
+mySQLUsername: root
+mySQLPassword: root
+mySQLDatabase: test
+mySQLtable: test
+money: 20
+lorehead: "使用后绑定"
+blore: "§4绑定于："
+msg:
+  msg1: '非自有绑定物品无法使用'
+  msg2: '绑定物品无法丢弃'
+  msg3: '非自有绑定物品无法移动'
+  msg4: '输入/bd finde 物品ID 找回该物品'
+  msg5: '找回的物品不存在'
+  msg6: '该物品已经被删除'
+  msg7: '物品已经被找回'
+  msg8: '钱不够！'
+cmd:
+  list: '/bd list 列出本人所拥有的所有绑定物品'
+  find: '/bd find 序号 找回我丢失的物品（老物品失效并被销毁）'
+list: '{num}:武器名字：{wpname}  武器ID: {wpid}'
+normal:
+  lorehead: '普通绑定'
+  blore: '普通绑定于：'
